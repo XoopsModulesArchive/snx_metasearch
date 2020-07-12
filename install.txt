@@ -1,0 +1,11 @@
+SnX MetaSearch for Xoops v2.x
+Copyright (c) 2005-2006 NGUYEN DINH Quoc-Huy (SnAKes)
+
+SnX MetaSearch module need the web server to allow opening sockets: fsockopen().
+
+INSTALLATION:
+	- unpack the archive into XOOPS_ROOT_PATH/modules/ directory
+	- the SnX-MetaSearch module must be in in XOOPS_ROOT_PATH/modules/snx_metasearch/
+	- set permission to 'cache/' folder => chmod 777 cache
+	- install the module from the 'Admin' section
+	- set the permissions for anonymous users if needed in the 'Groups' manager of the 'Admin' section

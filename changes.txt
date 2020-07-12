@@ -1,0 +1,45 @@
+SnX MetaSearch for Xoops v2.x
+Copyright (c) 2005-2006 NGUYEN DINH Quoc-Huy (SnAKes)
+
+Version 0.1 (09/09/2005)
+	- Google plugins
+	- Yahoo plugins
+	- Altavista plugins
+	- search in the first page of each search engine
+
+Version 0.2 ()
+	- xoops_pagetitle update for better referencing
+	- reinsert keywords in search input
+	- Lycos plugins
+	- some code modification
+	- support for global and french versions of search engines
+	- caching support to avoid requesting to much and getting blacklisted
+
+Version 0.3 (23/09/2005)
+	- added local site search using xoops search engine
+ 	- hilighting keywords occurences
+	- php config file (includes/prefs.php)
+
+Version 0.4 (06/10/2005)
+	- added thumbshots images provided by thumbshots.org
+	- added thumbshots images provided by alexa.com when thumbshots.org failed
+	- includes/prefs.php config file settings:
+		- toggle hilite keywords
+		- hilite color
+		- toggle display site description results
+		- toggle display percentage (%)
+		- toggle displaying thumbshots
+		- cache's life time
+
+Version 0.4a ()
+	- speed up results display by displaying results first and only then test for thumbshots.
+
+Version 0.5 (17/10/2005)
+	- bug fix: limit the length of displayed link (green)
+	- if you have an adsense (Google ads) account, you can set the code in "includes/prefs.php"
+	  If not you may go to https://www.google.com/adsense/?sourceid=ASO&subid=FR-ET-WBMSTR-ES&hl=en
+	  and subscribe to Google Adsense program.
+	  If you don't wan't to have an Adsense account you leave "includes/prefs.php" as it is now, or
+	  you can edit it an set both Adsense string to empty ("")
+	- added: the cache features is now coded as a class
+	- added: cache feature for each parser
